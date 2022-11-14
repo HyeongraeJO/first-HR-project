@@ -5,7 +5,6 @@
 # [output2] For 1 seconds, [WASHING, FLUSHING, SHOWERING, OTHERS]
 # [output3] timestamp and log of event when there was sound
 # LOG in FireBase https://safe-home-uou-default-rtdb.firebaseio.com/
-# office change
 
 import firebase_admin
 from firebase_admin import credentials
