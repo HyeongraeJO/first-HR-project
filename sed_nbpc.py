@@ -1,6 +1,6 @@
 # SED Monitoring program in UoU for PC/Notebook
 # For each 1 second, when daily activity is detected with sound
-# LOG in FireBase
+# LOG in FireBase https://safe-home-uou-default-rtdb.firebaseio.com/
 
 import firebase_admin
 from firebase_admin import credentials
