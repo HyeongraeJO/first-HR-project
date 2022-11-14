@@ -1,5 +1,9 @@
-# SED Monitoring program in UoU for PC/Notebook
-# For each 1 second, when daily activity is detected with sound
+# SED Sound based Event Detector for SAFE_HOME
+# Monitoring and Deployment of DNN model
+# [input] water related sound from microphone in bathroom
+# [output1] For each frame (1/30 s), probablity among [WASHING, FLUSHING, SHOWERING]
+# [output2] For 1 seconds, [WASHING, FLUSHING, SHOWERING, OTHERS]
+# [output3] timestamp and log of event when there was sound
 # LOG in FireBase https://safe-home-uou-default-rtdb.firebaseio.com/
 
 import firebase_admin
