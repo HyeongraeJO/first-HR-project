@@ -14,7 +14,8 @@ from random import *
 import threading
 import pyaudio
 import numpy as np
-import keyboard
+
+#import keyboard
 
 # Firebase database 인증 및 앱 초기화 # .json의 위치경로를 정확하게 !
 # 파이어베이스 realtime database 프로젝트의 고유 URL
@@ -104,9 +105,9 @@ while(True):
             print("%04d/%02d/%02d %02d:%02d:%02d" % (now.tm_year, now.tm_mon, now.tm_mday, now.tm_hour, now.tm_min, now.tm_sec))
             print("nothing, 's' for STOP !\n")
 
-    if keyboard.is_pressed("s"):        # s를 누르면 닫고 끝낸다...
-        print("\nSTOP\n")
-        stream.stop_stream()
-        stream.close()
-        p.terminate()
-        break
+ #   if keyboard.is_pressed("s"):        # s를 누르면 닫고 끝낸다...
+ #       print("\nSTOP\n")
+ #       stream.stop_stream()
+ #       stream.close()
+ #       p.terminate()
+ #       break
